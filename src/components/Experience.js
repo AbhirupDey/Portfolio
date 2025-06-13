@@ -15,8 +15,7 @@ const Details = ({position, company, companyLink, time, address, work}) => {
         whileInView={{y: 0}}
         transition={{duration: 0.7, type: "spring"}}
         >
-            <h3 className='capitalize font-bold text-2xl'>{position}&nbsp;<a href={companyLink}
-            target="_blank"
+            <h3 className='capitalize font-bold text-2xl'>{position}&nbsp;<a 
             className='text-primary dark:text-primaryDark capitalize'
             >@{company}</a></h3>
             <span className='capitalize font-medium text-dark/75 dark:text-light/75'>
@@ -54,36 +53,20 @@ className="absolute left-9 top-[2px] w-[4px] h-full bg-dark origin-top dark:bg-l
 
             <ul className="w-full flex flex-col items-start justify-between ml-4">
                 <Details 
-                    position="Full Stack Developer Intern" 
-                    company="OnlyFans" 
-                    companyLink="https://onlyfans.com/" 
-                    time="June 2023 - Present" 
+                    position="Machine Learning Intern" 
+                    company="Webdesk Technologies Pvt. Ltd." 
+                    companyLink="" 
+                    time="June 2023 - September 2023" 
                     address="Remote"
-                    work="Developed and maintained web applications using React.js and Node.js, enhancing user experience and performance."
+                    work="Developed a customer segmentation model using clustering algorithms (K-means, DBSCAN), improving marketing campaign efficiency by 20%"
                 />
                 <Details 
-                    position="Full Stack Developer Intern" 
-                    company="OnlyFans" 
-                    companyLink="https://onlyfans.com/" 
-                    time="June 2023 - Present" 
+                    position="Artificial Intelligence Intern" 
+                    company="Acmegrade" 
+                    companyLink="" 
+                    time="July 2023 - September 2023" 
                     address="Remote"
-                    work="Developed and maintained web applications using React.js and Node.js, enhancing user experience and performance."
-                />
-                <Details 
-                    position="Full Stack Developer Intern" 
-                    company="OnlyFans" 
-                    companyLink="https://onlyfans.com/" 
-                    time="June 2023 - Present" 
-                    address="Remote"
-                    work="Developed and maintained web applications using React.js and Node.js, enhancing user experience and performance."
-                />
-                <Details 
-                    position="Full Stack Developer Intern" 
-                    company="OnlyFans" 
-                    companyLink="https://onlyfans.com/" 
-                    time="June 2023 - Present" 
-                    address="Remote"
-                    work="Developed and maintained web applications using React.js and Node.js, enhancing user experience and performance."
+                    work="Worked on AI projects, including data preprocessing, model training, and deployment; integrated and worked over AI-based features into web applications using Python, TensorFlow, and Flask increasing user engagement by 20%"
                 />
             </ul>
         </div>
