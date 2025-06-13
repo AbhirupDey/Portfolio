@@ -60,9 +60,9 @@ className="absolute left-9 top-[2px] w-[4px] h-full bg-dark origin-top dark:bg-l
                     info="Completed Higher Secondary Education with a focus on Science, laying a strong foundation in mathematics and physics." 
                 />
                 <Details 
-                    type="Bachelor of Technology in Computer Science" 
+                    type="Institute of Engineering and Management, Kolkata" 
                     time="2022-2026" 
-                    place="Institute of Engineering and Management, Kolkata" 
+                    place="Bachelor of Technology in Computer Science" 
                     info="Pursuing a B.Tech degree with a focus on Computer Science, enhancing my skills in software development, algorithms, and data structures." 
                 />
                 
