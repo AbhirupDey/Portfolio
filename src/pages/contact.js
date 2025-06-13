@@ -108,8 +108,8 @@ const Contact = () => {
             >
               <h2 className="text-4xl font-bold text-dark mb-4 dark:text-light">Connect with Me</h2>
               <p className="text-lg text-dark/75 dark:text-light/75">
-                Whether it's about web development, AI/ML, SaaS solutions, or any exciting tech trend, 
-                I'm always open to connecting. Let's create something amazing together!
+                Whether it&apos;s about web development, AI/ML, SaaS solutions, or any exciting tech trend, 
+                I&apos;m always open to connecting. Let&apos;s create something amazing together!
               </p>
             </motion.div>
 
