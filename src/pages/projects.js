@@ -5,7 +5,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import project1 from '../../public/images/projects/p1.jpg'
+import project1 from '../../public/images/projects/projectimg.jpg'
 import TransitionEffect from '@/components/TransitionEffect'
 
 
@@ -63,9 +63,13 @@ const Project = ({type, title, img, link, github}) => {
       </Link>
 
       <div className='w-full flex flex-col items-start justify-between mt-4'>
+
         <span className='text-primary font-medium text-xl dark:text-primaryDark'>{type}</span>
+
         <Link href={link} target="_blank" className='hover:underline underline-offset-2'>
+
         <h2 className='my-2 w-full text-left text-3xl font-bold'>{title}</h2>
+
       </Link>
 
       <div className='w-full mt-2 flex items-center justify-between'>
@@ -106,7 +110,7 @@ const projects = () => {
 
             <div className='grid grid-cols-12 gap-24 gap-y-32'>
 
-              <div className='col-span-12'>
+              {/* <div className='col-span-12'>
                 <FeaturedProject
                 type="Project-1" 
                 title="Crypto Generator"
@@ -115,27 +119,56 @@ const projects = () => {
                 link="/"
                 github="/"
                 />
-              </div>
+              </div> */}
 
               <div className='col-span-6'>
                 <Project 
-                title="Crypto Generator"
+                title="Pizzamania: A pizza delivery website with a modern design and user-friendly interface."
                 img={project1}
-                summary="This is a brief summary of Project 1, showcasing its features and functionalities."
-                link="/"
-                github="/"
-                type="Featured Project"
+                link="https://pizzamania-alpha.vercel.app/"
+                github="https://github.com/AbhirupDey/Pizzamania"
+                type="Web Project"
                 />
               </div>
 
               <div className='col-span-6'>
                 <Project 
-                title="Crypto Generator"
+                title=" 	Sundown Studio: Improves the looks of a room into a crazy setup studio."
                 img={project1}
                 summary="This is a brief summary of Project 1, showcasing its features and functionalities."
-                link="/"
-                github="/"
-                type="Featured Project"
+                link="https://abhirupdey.github.io/website/"
+                github="https://github.com/AbhirupDey/website"
+                type="Web Project"
+                />
+              </div>
+
+              <div className='col-span-6'>
+                <Project 
+                title="Ephemeral Equilibrium : Awareness about our environment."
+                img={project1}
+                link="https://abhirupdey.github.io/Equilibrium/"
+                github="https://github.com/AbhirupDey/Equilibrium"
+                type="Web Project"
+                />
+              </div>
+
+              <div className='col-span-6'>
+                <Project 
+                title="Simon Game: A classic memory game."
+                img={project1}
+                link="https://abhirupdey.github.io/simon-game/"
+                github="https://github.com/AbhirupDey/simon-game"
+                type="Web Project"
+                />
+              </div>
+              
+              <div className='col-span-6'>
+                <Project 
+                title="Tindog"
+                img={project1}
+                link="https://abhirupdey.github.io/tindog/"
+                github="https://github.com/AbhirupDey/tindog"
+                type="Web Project"
                 />
               </div>
 
