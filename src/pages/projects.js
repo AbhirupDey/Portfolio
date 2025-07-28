@@ -123,6 +123,16 @@ const projects = () => {
 
               <div className='col-span-6'>
                 <Project 
+                title="CodeFit - AI-Powered Fitness Coach application that provides personalized workout routines and diet plans."
+                img={project1}
+                link="https://code-fit-utsc.vercel.app/"
+                github="https://github.com/AbhirupDey/CodeFit"
+                type="Web Project"
+                />
+              </div>
+
+              <div className='col-span-6'>
+                <Project 
                 title="Pizzamania: A pizza delivery website with a modern design and user-friendly interface."
                 img={project1}
                 link="https://pizzamania-alpha.vercel.app/"
